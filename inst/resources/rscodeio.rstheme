@@ -5,6 +5,11 @@
 .GEL-OVUBNH {
   background: none;
 }
+
+/* 右上角 Environment 水平滚动条 */
+.GEL-OVUBGDD {
+  overflow-x: hidden;
+}
 .ace_gutter {
   background: #282c34;
   color: #636e82;
@@ -22,13 +27,19 @@
 }
 
 .GEL-OVUBLDC td:first-child div,
-.ace_text-layer {
+.ace_keyword,
+.dataTables_wrapper, /* 表格 */
+.GEL-OVUBBQC, /* 变量详细信息 */
+.ace_text-layer,
+.rstudio-themes-flat .ace_editor_theme{
   font-family: "JetBrains Mono", "PingFang SC", "Microsoft Yahei UI", monospace !important;
 }
 
 .rstudio-themes-flat.ace_editor_theme {
   background-color: #282c34;
   color: #abb2bf;
+  text-align: justify;
+  padding: 5px;
 }
 
 .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph {
@@ -39,6 +50,14 @@
 .rstudio-themes-flat .ace_editor_theme {
   background-color: #282c34;
   color: #abb2bf;
+}
+
+hr {
+  opacity: 0.3;
+  border-style: dashed;
+  margin: 30px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 .rstudio-themes-flat.editor_dark.ace_editor_theme a {
@@ -2782,7 +2801,7 @@ input#rstudio_command_palette_search {
 .rstudio-themes-flat.rstudio-themes-dark.editor_dark.ace_editor_theme a{
   line-height: 1.55;
   color: #DEDEDE !important;
-  font-family: "PingFang SC", sans-serif;
+  /* font-family: "PingFang SC", sans-serif; */
 }
 
 .rstudio-themes-flat.rstudio-themes-dark.editor_dark.ace_editor_theme pre {
