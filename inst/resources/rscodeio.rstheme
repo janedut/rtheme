@@ -30,10 +30,12 @@
 .ace_keyword,
 .dataTables_wrapper, /* 表格 */
 .GEL-OVUBBQC, /* 变量详细信息 */
-.ace_text-layer,
-.rstudio-themes-flat .ace_editor_theme{
+.GEL-OVUBEOD, /* 右上角 Environment */
+.ace_text-layer{
   font-family: "JetBrains Mono", "PingFang SC", "Microsoft Yahei UI", monospace !important;
 }
+/* .rstudio-themes-flat .ace_editor_theme */
+
 
 .rstudio-themes-flat.ace_editor_theme {
   background-color: #282c34;
