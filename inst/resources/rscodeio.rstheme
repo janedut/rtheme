@@ -613,6 +613,7 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 /* job progress bar */
 .rstheme_toolbarWrapper [role="progressbar"] > div, .windowframe [role="progressbar"] > div {
   background-color: rgba(83, 90, 105, 0.7);
+  border-radius: 20px;
 }
 
 /* borders on toolbar under editor */
