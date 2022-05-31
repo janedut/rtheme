@@ -344,6 +344,7 @@ hr {
 
 .rstudio-themes-flat.rstudio-themes-dark.editor_dark.ace_editor_theme pre {
   background-color: transparent;
+  font-family: 'JetBrains Mono', Menlo, Ubuntu, Consolas, Courier, monospace;
   border: 1px solid rgba(255,255,255,.1);
   border-radius: 8px;
   padding: 0.7em!important;
