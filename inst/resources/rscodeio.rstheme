@@ -377,7 +377,7 @@ hr {
   text-decoration: none;
 }
 
-.rstudio-themes-dark.editor_dark.ace_editor_theme .code-toolbar {
+.rstudio-themes-dark.editor_dark.ace_editor_theme .code-toolbar, .rstudio-themes-dark.editor_dark.ace_editor_theme .source {
   border: 0;
   background-color: transparent;
 }
