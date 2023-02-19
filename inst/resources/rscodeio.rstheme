@@ -6,6 +6,9 @@
   --dark-bg: #21252b;
 }
 
+body {
+font-family: sans-serif;
+}
 
 .GEL-OVUBNH {
   background: none;
