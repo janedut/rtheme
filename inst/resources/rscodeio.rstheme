@@ -493,7 +493,7 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 
 .rstudio-themes-dark-menus .themedPopupPanel .popupMiddleCenter {
   border-radius: 8px;
-  border: solid 2px rgba(82, 139, 255, 0.4);
+  /* border: solid 2px rgba(82, 139, 255, 0.4); */
 }
 
 .rstudio-themes-flat .themedPopupPanel ~ div.popupContent div:nth-child(1) {
@@ -695,6 +695,11 @@ input[type="text"],
 .GND-IWGDPPD,
 .dataGridHeader {
   font-family: sans-serif;
+}
+.GND-IWGDAS {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px;
 }
 
 #rstudio_command_palette_search,
