@@ -586,7 +586,7 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 }
 ::-webkit-scrollbar-thumb {
   border: 5px !important;
-  /* border-radius: 10 !important; */
+  border-radius: 5px;
   background-color: rgba(121, 121, 121, 0.2) !important;
 }
 
@@ -687,6 +687,14 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 /* active tab */
 .rstudio-themes-dark .gwt-TabLayoutPanelTab.gwt-TabLayoutPanelTab-selected .rstheme_tabLayoutCenter {
   border: none;
+}
+
+/* some tap fonts */
+.GND-IWGDGV, 
+input[type="text"],
+.GND-IWGDPPD,
+.dataGridHeader {
+  font-family: sans-serif;
 }
 
 #rstudio_command_palette_search,
