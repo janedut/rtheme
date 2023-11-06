@@ -746,10 +746,6 @@ input#rstudio_command_palette_search {
   border: none;
 }
 
-.rstudio-themes-dark-grey .rstheme_toolbarWrapper {
-  border-color: none
-}
-
 /* Rainbow Parenthesis */
 .rstudio-themes-dark .ace_paren_color_0 {
   color: #abb2bf;
