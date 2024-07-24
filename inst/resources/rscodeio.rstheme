@@ -304,7 +304,7 @@ hr {
 }
 
 #rstudio_console_input .ace_marker-layer .ace_selection {
-  background: rgba(82, 139, 255, 0.4);
+  background: rgba(82, 139, 255, 0.2);
 }
 
 /* ---- RStudio Theme ---- */
@@ -503,7 +503,7 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 .rstudio-themes-flat .popupContent {
   background: #282c34;
   color: #abb2bf;
-  border-color: rgba(82, 139, 255, 0.4);
+  border-color: rgb(255 255 255 / 40%);
 }
 
 .rstudio-themes-flat .popupContent:not(.popupMiddleCenterInner) div div:nth-child(2) {
@@ -521,17 +521,38 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 }
 
 .rstudio-themes-flat .gwt-PopupPanel .popupContent table {
-  background: #abb2bf;
+  background: #282c34;
   border: 0;
 }
 
 .rstudio-themes-flat .gwt-PopupPanel .popupContent table .gwt-Label {
-  color: #282c34;
+  color: #abb2bf;
 }
 
 .rstudio-themes-flat.rstudio-themes-dark-menus .gwt-MenuItem.gwt-MenuItem-selected, .rstudio-themes-flat.rstudio-themes-dark-menus .gwt-MenuItem.gwt-MenuItem-selected > table {
-  background: rgba(22, 24, 29, 0.6);
+  /* background: rgba(174, 176, 180, 0.3); */
   color: #abb2bf;
+  border-radius: 4px;
+}
+.rstudio-themes-dark-menus .GND-IWGDN4B {
+  /* background: rgb(40, 44, 52); */
+  border: none;
+  border-radius: 8px;
+  background-color: none;
+  margin-left: 15px;
+  padding: 0;
+}
+.popupContent {
+  border: 1px solid #abb2bf;
+  border-radius: 8px;
+  padding: 4px;
+}
+.rstudio-themes-dark-menus .themedPopupPanel .popupMiddleCenter {
+  padding: 0;
+  border: none;
+}
+.GND-IWGDO2B td {
+  border-radius: 4px;
 }
 
 /* datagrid */
@@ -648,6 +669,13 @@ table.rstheme_tabLayoutCenter .gwt-Label,
   border-color: #282c34;
 } */
 
+/* 弹出式函数提示 */
+.GND-IWGDEUC {
+  padding: 5px;
+  font-family: "Jetbrains Mono";
+  border-radius: 5px;
+}
+
 /* main toolbar */
 .rstudio-themes-dark > div:last-child > div > div > .rstheme_toolbarWrapper,
 .rstudio-themes-dark [role="application"] > div > .rstheme_toolbarWrapper {
@@ -693,15 +721,20 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 .GND-IWGDGV, 
 input[type="text"],
 .GND-IWGDPPD,
+.GND-IWGDP1,
+th.GND-IWGDLAC,
 .dataGridHeader {
   font-family: sans-serif;
 }
+
 .GND-IWGDAS {
   font-family: sans-serif;
   font-weight: bold;
   font-size: 12px;
 }
-
+.gwt-DialogBox {
+  border-radius: 10px;
+}
 #rstudio_command_palette_search,
 #rstudio_command_palette_list [id^="rstudio_command_"],
 input#rstudio_command_palette_search {
@@ -745,7 +778,9 @@ input#rstudio_command_palette_search {
 .rstudio-themes-flat .popupContent [id^="rstudio_command"] [id^="rstudio_command_entry_"] .gwt-Label, .rstudio-themes-flat .popupContent [id^="rstudio_command"] [id^="rstudio_command_entry_"] .gwt-Label span {
   border: none;
 }
-
+.rstudio-themes-dark-grey .rstheme_toolbarWrapper {
+  border-color: none
+}
 /* Rainbow Parenthesis */
 .rstudio-themes-dark .ace_paren_color_0 {
   color: #abb2bf;
